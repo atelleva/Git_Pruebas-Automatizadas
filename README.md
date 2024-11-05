@@ -2,4 +2,7 @@
 Git_Pruebas Automatizadas
 
 # Grupo 9 - Integrantes:  
-Patricia Téllez  / Alejandro Rodriguez / Jhoan Felipe Sarmiento
+Miguel Alejandro Rodríguez - ma.rodriguezs123456@uniandes.edu.co
+Patricia Téllez - ap.tellezv1@uniandes.edu.co
+Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
+
