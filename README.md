@@ -1,6 +1,5 @@
 # Git_Pruebas-Automatizadas
-Git_Pruebas Automatizadas
-
+# Semana 5
 # Integrantes:  
 Miguel Alejandro Rodríguez - ma.rodriguezs123456@uniandes.edu.co
 
