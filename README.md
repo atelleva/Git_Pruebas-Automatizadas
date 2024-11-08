@@ -22,6 +22,11 @@ F05-Gestionar Publicaciones
 F06-Importar / Exportar
 
 # Kraken
+Instalación y Ejecución de Pruebas con Kraken
+1. Se debe tener instalado Node.js y el manejador de paquetes npm
+2. Instalar la herramienta con el comando : npm install kraken-node -g
+3. Creación del proyecto : kraken-node gen
+4. 
 
 
 
