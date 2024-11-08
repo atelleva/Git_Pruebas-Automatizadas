@@ -10,7 +10,7 @@ Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 
 
 # Kraken
-Prueba
+
 
 
 # Cypress
