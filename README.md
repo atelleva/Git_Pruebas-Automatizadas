@@ -43,6 +43,8 @@ Instalación y Ejecución de Pruebas con Cypress
 6. Habilitar la interfaz gráfica:  cypress open
 7. Agregar la carpeta Cypress como nuevo proyecto
 8. Seleccionar la opción E2E Testing
+9. Seleccionar el navegador Chrome
+10. Hacer clic en los archivos *.feature para ejecutar cada escenario
     
 
 
