@@ -34,6 +34,16 @@ Instalación y Ejecución de Pruebas con Kraken
 
 
 # Cypress
+Instalación y Ejecución de Pruebas con Cypress
+1. Se debe tener instalado Node.js y el manejador de paquetes npm
+2. Instalar la herramienta con el comando : npm install -g cypress
+3. Creación del proyecto cypress-test
+4. En el archivo cypress.config.js asignar la url de Ghost en su máquina local por medio del atributo baseUrl.
+5. Agregar correo y contraseña del usuario administrador de Ghost en el archivo Cypress/cypress/fixtures/Users.json en las líneas 2 y 3 por medio de los atributos username y password respectivamente.
+6. Habilitar la interfaz gráfica:  cypress open
+7. Agregar la carpeta Cypress como nuevo proyecto
+8. Seleccionar la opción E2E Testing
+    
 
 
 
