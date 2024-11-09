@@ -38,7 +38,7 @@ Instalación y Ejecución de Pruebas con Cypress
 1. Se debe tener instalado Node.js y el manejador de paquetes npm
 2. Instalar la herramienta con el comando : npm install -g cypress
 3. Creación del proyecto cypress-test
-4. En el archivo cypress.config.js asignar la url de Ghost en su máquina local por medio del atributo baseUrl.
+4. En el archivo cypress.config.js asignar la url de Ghost por medio del atributo baseUrl.
 5. Habilitar la interfaz gráfica:  cypress open
 6. Agregar la carpeta Cypress como nuevo proyecto
 7. Seleccionar la opción E2E Testing
