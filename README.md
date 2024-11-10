@@ -9,9 +9,9 @@ Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 
 # Listado de funcionalidades
 
-F01-Acceder al blog con contraseña
+F01-Acceder al blog con contraseña: Permite agregar un nivel de seguridad adicional protegiendo el sitio con contraseña.
 
-F02-Crear tags internos
+F02-Crear tags internos: Permite crear tags internos para vincularlos en las publicaciones.
 
 F03-Gestión de usuarios: Permite a los administradores gestionar roles y permisos de diferentes usuarios que colaboran en el contenido (editores, escritores, administradores). 
  
