@@ -1,0 +1,64 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "my-feature;ir-a-la-página-de-inicio",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Ir a la página de inicio",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 57000000,
+              "error_message": "ReferenceError: axios is not defined\n    at /Users/alejandrorodriguez/Documents/PruebasAutomatizadas/Semana5/git/Git_Pruebas-Automatizadas/kraken/features/web/step_definitions/step.js:6:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit the homepage",
+            "match": {
+              "location": "features/web/step_definitions/step.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'deleteSession')\n    at WebClient.<anonymous> (/Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/WebClient.js:109:59)\n    at step (/Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/WebClient.js:59:23)\n    at Object.next (/Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/WebClient.js:40:53)\n    at /Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/WebClient.js:34:71\n    at new Promise (<anonymous>)\n    at __awaiter (/Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/WebClient.js:30:12)\n    at WebClient.stop (/Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/WebClient.js:104:16)\n    at WebClient.<anonymous> (/Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/Client.js:109:51)\n    at step (/Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/Client.js:67:23)\n    at Object.next (/Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/Client.js:48:53)\n    at fulfilled (/Users/alejandrorodriguez/Documents/PruebasAutomatizadas/node_modules/kraken-node/lib/clients/Client.js:39:58)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 3
+          },
+          {
+            "name": "@web",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "my-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "My feature",
+    "tags": [],
+    "uri": "features/my_first.feature"
+  }
+]
