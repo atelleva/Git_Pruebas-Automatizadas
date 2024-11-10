@@ -13,9 +13,9 @@ F01-Acceder al blog con contraseña
 
 F02-Crear tags internos
 
-F03-Gestión de usuarios
-
-F04-Configuración Menú
+F03-Gestión de usuarios: Permite a los administradores gestionar roles y permisos de diferentes usuarios que colaboran en el contenido (editores, escritores, administradores). 
+ 
+F04-Configuración Menú: Proporciona toda la información útil y algunas configuraciones del sitio, que pueden ser establecidas por el usuario. 
 
 F05-Gestionar Publicaciones
 
