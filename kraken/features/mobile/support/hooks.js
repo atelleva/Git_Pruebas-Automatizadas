@@ -1,15 +1,12 @@
-const { After, Before } = require('@cucumber/cucumber');
-const { AndroidClient } = require('kraken-node');
+const { Before, After } = require('@cucumber/cucumber');
+const { WebDriver } = require('kraken-node');
 
 Before(async function () {
-  this.deviceClient = new AndroidClient(
-    this.device.id, this.apkPath,
-    this.apkPackage, this.apkLaunchActivity,
-    {}, this.userId
-  );
-  this.driver = await this.deviceClient.startKrakenForUserId(this.userId);
-})
+  this.driver = await WebDriver.builder()
+    .forBrowser('chrome')  // O el navegador que estés usando
+    .build();
+});
 
 After(async function () {
-  await this.deviceClient.stopKrakenForUserId(this.userId);
+  await this.driver.quit();
 });

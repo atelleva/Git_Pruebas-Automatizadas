@@ -1,11 +1,9 @@
-Feature: My feature
+Feature: Create draft page
 
 @user1 @web
-Scenario: My scenario 1
-  Given I wait for a signal containing "hi"
-  When I wait
-
-@user2 @web
-Scenario: My scenario 2
-  Given I wait for a signal containing "hi"
-  When I wait
+Scenario: Create a draft page successfully
+  Given I navigate to page "http://localhost:2368/ghost/"
+  And I enter email 'alejandro.rs'
+  And I enter password "<PASSWORD>"
+  And I click on the login button
+  And I wait for 2 seconds
