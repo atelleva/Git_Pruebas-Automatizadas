@@ -22,7 +22,7 @@ F05-Gestionar Publicaciones: Permite a los usuarios crear, editar y publicar ent
 F06-Importar / Exportar: Facilita la exportación de contenido como respaldo y la importación de datos en caso de restauración o migración de información
 
 # Kraken
-Instalación y Ejecución de Pruebas con Kraken
+## Instalación y Ejecución de Pruebas con Kraken
 1. Se debe tener instalado Node.js y el manejador de paquetes npm
 2. Instalar la herramienta con el comando : npm install kraken-node -g
 3. Creación del proyecto : kraken-node gen
@@ -32,13 +32,13 @@ Instalación y Ejecución de Pruebas con Kraken
 7. En la carpeta support encontramos los archivos hooks.js y support.js que se utilizan para las configuraciones de la herramienta que se va a probar
 8. En el directorio features se encuentra el archivo my_first_feature.js que contiene las instrucciones para el escenario de prueba
 
-Pros:
+## Pros:
 
-Contras:
+## Contras:
 
 
 # Cypress
-Instalación y Ejecución de Pruebas con Cypress
+## Instalación y Ejecución de Pruebas con Cypress
 1. Se debe tener instalado Node.js y el manejador de paquetes npm
 2. Instalar la herramienta con el comando : npm install -g cypress
 3. Creación del proyecto cypress-test
@@ -49,9 +49,9 @@ Instalación y Ejecución de Pruebas con Cypress
 8. Seleccionar el navegador Chrome
 9. Hacer clic en los archivos *.feature para ejecutar cada escenario
 
-Pros:
+## Pros:
 
-Contras:
+## Contras:
     
     
     
