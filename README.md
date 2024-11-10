@@ -30,7 +30,11 @@ Instalación y Ejecución de Pruebas con Kraken
 5. Como las pruebas de este curso están dirigidas a una aplicación web revisamos en el directorio web que se crean dos carpetas: step_definitions y support
 6. En step_definitions encontramos el archivo step.js sirve para importar las funcionalidades
 7. En la carpeta support encontramos los archivos hooks.js y support.js que se utilizan para las configuraciones de la herramienta que se va a probar
-8. En el directorio features se encuentra el archivo my_first_feature.js que contiene las instrucciones para el escenario de prueba 
+8. En el directorio features se encuentra el archivo my_first_feature.js que contiene las instrucciones para el escenario de prueba
+
+Pros:
+
+Contras:
 
 
 # Cypress
@@ -44,6 +48,10 @@ Instalación y Ejecución de Pruebas con Cypress
 7. Seleccionar la opción E2E Testing
 8. Seleccionar el navegador Chrome
 9. Hacer clic en los archivos *.feature para ejecutar cada escenario
+
+Pros:
+
+Contras:
     
     
     
