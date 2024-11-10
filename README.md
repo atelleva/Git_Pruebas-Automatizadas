@@ -15,11 +15,11 @@ F02-Crear tags internos
 
 F03-Gestión de usuarios: Permite a los administradores gestionar roles y permisos de diferentes usuarios que colaboran en el contenido (editores, escritores, administradores). 
  
-F04-Configuración Menú: Proporciona toda la información útil y algunas configuraciones del sitio, que pueden ser establecidas por el usuario. 
+F04-Configuración Menú: Permite a los administradores y colaboradores acceder al panel de control de Ghost con su correo electrónico y contraseña para gestionar el contenido y las configuraciones del sitio
 
-F05-Gestionar Publicaciones
+F05-Gestionar Publicaciones: Permite a los usuarios crear, editar y publicar entradas de blog con contenido personalizado, imágenes, y etiquetas. 
 
-F06-Importar / Exportar
+F06-Importar / Exportar: Facilita la exportación de contenido como respaldo y la importación de datos en caso de restauración o migración de información
 
 # Kraken
 Instalación y Ejecución de Pruebas con Kraken
