@@ -32,11 +32,6 @@ F06-Importar / Exportar: Facilita la exportación de contenido como respaldo y l
 7. En la carpeta support encontramos los archivos hooks.js y support.js que se utilizan para las configuraciones de la herramienta que se va a probar
 8. En el directorio features se encuentra el archivo my_first_feature.js que contiene las instrucciones para el escenario de prueba
 
-## Pros:
-
-## Contras:
-
-
 # Cypress
 ## Instalación y Ejecución de Pruebas con Cypress
 1. Se debe tener instalado Node.js y el manejador de paquetes npm
@@ -49,9 +44,7 @@ F06-Importar / Exportar: Facilita la exportación de contenido como respaldo y l
 8. Seleccionar el navegador Chrome
 9. Hacer clic en los archivos *.feature para ejecutar cada escenario
 
-## Pros:
 
-## Contras:
     
     
     
