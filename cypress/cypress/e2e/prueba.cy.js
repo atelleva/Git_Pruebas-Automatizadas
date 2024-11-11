@@ -1,5 +1,5 @@
 describe('F01-Acceder al blog con contraseña', () => {
-  it('E1-Escenario positivo - Configurar contraseña', function () {
+  it('F01-E1-Escenario positivo - Configurar contraseña', function () {
     const username = Cypress.env('USERNAME')
     const password = Cypress.env('PASSWORD')
     cy.visit('#/signin')
@@ -29,7 +29,7 @@ describe('F01-Acceder al blog con contraseña', () => {
     cy.screenshot('F01-Acceder al sitio con contraseña-E1.2')
   })
 
-  it('E2-Escenario positivo - Acceder al sitio con contraseña correcta', function () {
+  it('F01-E2-Escenario positivo - Acceder al sitio con contraseña correcta', function () {
     const username = Cypress.env('USERNAME')
     const password = Cypress.env('PASSWORD')
     cy.visit('#/signin')
@@ -46,7 +46,7 @@ describe('F01-Acceder al blog con contraseña', () => {
     cy.screenshot('F01-Acceder al sitio con contraseña-E2')
   })
 
-  it('E3-Escenario Negativo - Acceder al sitio con contraseña incorrecta', function () {
+  it('F01-E3-Escenario Negativo - Acceder al sitio con contraseña incorrecta', function () {
     const username = Cypress.env('USERNAME')
     const password = Cypress.env('PASSWORD')
     cy.visit('#/signin')
@@ -67,7 +67,7 @@ describe('F01-Acceder al blog con contraseña', () => {
 
 
 describe('F02-Crear tags internos', () => {
-  it('E1-Escenario positivo - Crear tag interno con datos completos', function () {
+  it('F02-E1-Escenario positivo - Crear tag interno con datos completos', function () {
     const username = Cypress.env('USERNAME')
     const password = Cypress.env('PASSWORD')
     cy.visit('#/signin')
@@ -91,7 +91,7 @@ describe('F02-Crear tags internos', () => {
     cy.screenshot('F02-Crear tags internos-E1')
   })
 
-  it('E2-Escenario negativo - Crear tag interno con datos incompletos', function () {
+  it('F02-E2-Escenario negativo - Crear tag interno con datos incompletos', function () {
     const username = Cypress.env('USERNAME')
     const password = Cypress.env('PASSWORD')
     cy.visit('#/signin')
@@ -113,7 +113,7 @@ describe('F02-Crear tags internos', () => {
     cy.screenshot('F02-Crear tags internos-E2')
   })
 
-  it('E3-Escenario negativo - Consultar tags internos creados', function () {
+  it('F02-E3-Escenario negativo - Consultar tags internos creados', function () {
     const username = Cypress.env('USERNAME')
     const password = Cypress.env('PASSWORD')
     cy.visit('#/signin')
