@@ -34,15 +34,19 @@ F06-Importar / Exportar: Facilita la exportación de contenido como respaldo y l
 
 # Cypress
 ## Instalación y Ejecución de Pruebas con Cypress
+
 1. Se debe tener instalado Node.js y el manejador de paquetes npm
 2. Instalar la herramienta con el comando : npm install -g cypress
 3. Creación del proyecto cypress-test
-4. En el archivo cypress.config.js asignar la url de Ghost por medio del atributo baseUrl.
-5. Habilitar la interfaz gráfica:  cypress open
-6. Agregar la carpeta Cypress como nuevo proyecto
-7. Seleccionar la opción E2E Testing
-8. Seleccionar el navegador Chrome
-9. Hacer clic en los archivos *.feature para ejecutar cada escenario
+4. En el archivo cypress.config.js asignar la url de Ghost por medio del atributo baseUrl
+5. Configurar los credenciales de usuario y contraseña en cypress.config.js para autenticar en Ghost
+6. Para los otros escenarios, configurar credenciales adicionales en `cypress/support/commands.js`
+7. Habilitar la interfaz gráfica: cypress open
+8. Agregar la carpeta Cypress como nuevo proyecto
+9. Seleccionar la opción E2E Testing
+10. Seleccionar el navegador Chrome
+11. Hacer clic en los archivos *.feature para ejecutar cada escenario
+
 
 
     
