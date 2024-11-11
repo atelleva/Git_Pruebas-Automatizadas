@@ -6,7 +6,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return true;
 });
 
-describe('sF05-E2 Prueba de Importación en la sección de Migración en Ghost', () => {
+describe('sF05-E2 Prueba de Importación en la sección de Migración en Ghost archivo invalido', () => {
     beforeEach(() => {
         cy.login();
     });

@@ -6,7 +6,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return true;
 });
 
-describe('F05-E1 Prueba de Exportación e Importación en Ghost', () => {
+describe('F05-E1 Prueba de Exportación en Ghost', () => {
     beforeEach(() => {
       cy.login(); 
     });
