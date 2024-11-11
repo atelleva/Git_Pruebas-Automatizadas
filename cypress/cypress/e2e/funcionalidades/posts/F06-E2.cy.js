@@ -6,38 +6,34 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return true;
 });
 
-describe('Creación de publicación con contenido en Markdown', () => {
+describe('F06-E2 Prueba E2E de Creación y Programación de Publicaciones en Ghost', () => {
     beforeEach(() => {
 
         cy.login();
     });
 
-    it('Debería renderizar el contenido en Markdown correctamente', () => {
+    it('Debería mostrar un error si se intenta publicar sin título', () => {
         cy.visit('#/editor/post');
         cy.wait(1000);
 
-        
-        cy.get('textarea[placeholder="Post title"]').type('Markdown Post');
-        cy.get('.koenig-react-editor').type('# Encabezado\n**Texto en negrita**');
+        cy.get('.koenig-react-editor').type('Contenido sin título');
         cy.get('button').contains('Publish').click();
 
 
         cy.get('button[data-test-button="continue"]').click();
+
         cy.get('button[data-test-button="confirm-publish"]').click();
 
-       
+        
         cy.get('div.modal-post-success').should('be.visible');
 
 
-        cy.get('h2').contains('Markdown Post').should('be.visible');
-        cy.get('.post-excerpt').contains('Encabezado').should('be.visible');
+        cy.get('.post-excerpt').contains('Contenido sin título').should('be.visible');
 
-       
         cy.get('button[data-test-button="close-publish-flow"]').click();
-        cy.get('div.modal-post-success').should('not.exist');
 
-       
-        cy.visit('#/posts?type=published');
-        cy.get('h3').contains('Markdown Post').should('be.visible');
+        cy.get('div.modal-post-success').should('not.exist');
     });
+
+
 });

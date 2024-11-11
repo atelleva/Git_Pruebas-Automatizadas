@@ -6,7 +6,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return true;
 });
 
-describe('Prueba E2E de Creación y Programación de Publicaciones en Ghost', () => {
+describe('F06-E1 Prueba E2E de Creación y Programación de Publicaciones en Ghost', () => {
     beforeEach(() => {
 
         cy.login();
