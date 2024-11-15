@@ -9,6 +9,8 @@ Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 
 # Pre-requisitos
 * Node.js v20.18.0.
+* Google Chrome v130.0.6723.117
+* npm v10.8.2
 
 # Kraken
 ## Instalación y Ejecución de Pruebas con Kraken
@@ -22,7 +24,7 @@ Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 8. En el directorio features se encuentra el archivo my_first_feature.js que contiene las instrucciones para el escenario de prueba
 
 # Cypress
-## Instalación y Ejecución de Pruebas con Cypress
+## Instalación
 
 1. Se debe tener instalado Node.js y el manejador de paquetes npm
 2. Instalar la herramienta con el comando : npm install -g cypress
@@ -36,7 +38,7 @@ Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 10. Seleccionar el navegador Chrome
 11. Hacer clic en los archivos *.feature para ejecutar cada escenario
 
-
+## Ejecución de Pruebas con Cypress
 
     
     
