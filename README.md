@@ -7,6 +7,9 @@ Patricia Téllez - ap.tellezv1@uniandes.edu.co
 
 Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 
+# Pre-requisitos
+* Node.js v20.18.0.
+
 # Kraken
 ## Instalación y Ejecución de Pruebas con Kraken
 1. Se debe tener instalado Node.js y el manejador de paquetes npm
