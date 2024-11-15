@@ -12,7 +12,8 @@ Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 * Google Chrome v130.0.6723.117
 * npm v10.8.2
 * En Ghost crear el usuario con los siguientes datos:
-        Correo: jf.sarmiento23@uniandes.edu.co y contraseña prueba1234
+** Correo: jf.sarmiento23@uniandes.edu.co
+** Contraseña: prueba1234
 
 # Kraken
 ## Instalación
