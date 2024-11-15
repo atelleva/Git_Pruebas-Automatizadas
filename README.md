@@ -13,7 +13,7 @@ Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 * npm v10.8.2
 
 # Kraken
-## Instalación y Ejecución de Pruebas con Kraken
+## Instalación
 1. Se debe tener instalado Node.js y el manejador de paquetes npm
 2. Instalar la herramienta con el comando : npm install kraken-node -g
 3. Creación del proyecto : kraken-node gen
@@ -22,6 +22,8 @@ Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 6. En step_definitions encontramos el archivo step.js sirve para importar las funcionalidades
 7. En la carpeta support encontramos los archivos hooks.js y support.js que se utilizan para las configuraciones de la herramienta que se va a probar
 8. En el directorio features se encuentra el archivo my_first_feature.js que contiene las instrucciones para el escenario de prueba
+
+## Ejecución de pruebas
 
 # Cypress
 ## Instalación
@@ -38,7 +40,7 @@ Jhoan Felipe Sarmiento Ortiz jf.sarmiento23@uniandes.edu.co
 10. Seleccionar el navegador Chrome
 11. Hacer clic en los archivos *.feature para ejecutar cada escenario
 
-## Ejecución de Pruebas con Cypress
+## Ejecución de pruebas
 
     
     
